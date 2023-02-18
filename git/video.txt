@@ -1,0 +1,17 @@
+-What changes should be commited?
+    git add css/general.css
+    git add -p index.html => git brings up the changes, and with y and n you can go ahead and accept it
+-What messaged is good for a commit?
+-Branching strategy
+    -Github Flow => Main is always there, anything else is a short-lived branch
+    -GitFlow => Main + Develop => short lived branches are created from Develop 
+-Pull Requests
+-Conflitcts
+    git merge --abort
+    git rebase --abort
+-Merge vs. rebase
+    Merge:
+        Fast forward Merge
+        The Merge Commit
+    Rebase:
+        Use it to clean up your local git commits, do not rebase on whatever is commit or branch that is pushed on the remote
